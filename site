@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1, h2 {
+            margin: 10px 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .project {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Portfolio</p>
+    </header>
+    <div class="container">
+        <section class="section">
+            <h2>About Me</h2>
+            <p>Insert your bio here.</p>
+        </section>
+        <section class="section">
+            <h2>Portfolio</h2>
+            <div class="project">
+                <h3>Tutoring Experience</h3>
+                <p>You have some tutoring experience and are looking to expand it.</p>
+            </div>
+            <!-- Add more projects or sections as needed -->
+        </section>
+        <section class="section">
+            <h2>Contact Me</h2>
+            <p>Email: your.email@example.com</p>
+            <p>Phone: +1234567890</p>
+            <!-- Add more contact information as needed -->
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
